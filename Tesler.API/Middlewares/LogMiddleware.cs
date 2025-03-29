@@ -13,7 +13,9 @@ namespace Tesler.API.Middlewares
         }
 
         public async Task Invoke(HttpContext context)
-        {
+           
+        { 
+            Console.WriteLine("jhkhjkh");
             logger.Info($"The Request {context.Request.Method} is starting");
             try
             {

@@ -93,6 +93,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseMiddleware<LogMiddleware>();
+app.UseMiddleware<ShabbatMiddleware>();
+
 
 app.UseHttpsRedirection();
 
@@ -101,8 +104,7 @@ app.UseAuthentication();
 
 app.UseAuthorization();
 
-app.UseMiddleware<ShabbatMiddleware>();
-app.UseMiddleware<LogMiddleware>();
+
 
 
 app.MapControllers();

@@ -15,7 +15,7 @@ namespace Tesler.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-   // [Authorize(Roles = "Manager")]
+    [Authorize(Roles = "manager")]
     public class UsersController : ControllerBase
     {
         private readonly IUserService _userService;
