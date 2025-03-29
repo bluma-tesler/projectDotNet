@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "D6VrU5oYd5LexyArzI+rEs+49psQPgexpd1VG5R3DUoEE1QvIJMc3JMV99hzD9GR/+3tArEBLsahotBDdZ9lyQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user1\\Desktop\\Tesler!\\Tesler.Servise\\Tesler.Servise.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user1\\.nuget\\packages\\automapper\\7.0.1\\automapper.7.0.1.nupkg.sha512",
+    "C:\\Users\\user1\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
